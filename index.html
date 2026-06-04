@@ -301,7 +301,7 @@
 
             try {
                 // Change back to Cloud Run URL when deploying!
-                const response = await fetch('https://it-support-chatbot-16t6.onrender.com/chat', {
+                const response = await fetch('https://it-chatbot-api-1045979193890.us-central1.run.app/chat', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ session_id: "capstone-session", message: text })
